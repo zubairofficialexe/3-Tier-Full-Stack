@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: yelp-camp-container
-          image: zubairzone/camp:latest
+          image: zubairzone/camp:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
